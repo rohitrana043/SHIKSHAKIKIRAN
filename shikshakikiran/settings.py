@@ -29,7 +29,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['shikshakikiran.herokuapp.com','localhost', 'shikshakikiran.up.railway.app']
 
-CSRF_TRUSTED_ORIGINS = ['https://shikshakikiran']
+CSRF_TRUSTED_ORIGINS = ['https://shikshakikiran.up.railway.app']
 
 
 # Application definition
