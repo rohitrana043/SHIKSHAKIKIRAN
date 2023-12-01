@@ -27,9 +27,9 @@ SECRET_KEY = "l-pro-)z_(ob1zvynp-2q7apo&e^8!aptutk!9n3ly2clo)r&2"
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['shikshakikiran.herokuapp.com','localhost', 'shikshakikiran.up.railway.app']
+ALLOWED_HOSTS = ['shikshakikiran.herokuapp.com','localhost', '127.0.0.1', 'shikshakikiran.up.railway.app', '.railway.app']
 
-CSRF_TRUSTED_ORIGINS = ['https://shikshakikiran.up.railway.app']
+CSRF_TRUSTED_ORIGINS = ['shikshakikiran.up.railway.app', 'https://shikshakikiran.up.railway.app', 'https://*.railway.app']
 
 
 # Application definition
