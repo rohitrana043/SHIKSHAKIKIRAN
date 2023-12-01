@@ -10,7 +10,7 @@ urllib3
 bootstrap4
 crispy-bootstrap4
 django-bootstrap4
-django-heroku
+# django-heroku
 whitenoise
 gunicorn
 django-makemessages-xgettext
