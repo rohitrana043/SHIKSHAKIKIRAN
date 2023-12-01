@@ -1,1 +1,1 @@
-web:python manage.py migrate && gunicorn shikshakikiran.wsgi --log-file -
+web: gunicorn shikshakikiran.wsgi --log-file - && python manage.py migrate
