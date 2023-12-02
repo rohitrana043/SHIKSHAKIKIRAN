@@ -30,7 +30,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['shikshakikiran.herokuapp.com','localhost', '127.0.0.1', 'shikshakikiran.up.railway.app', '.railway.app']
 
-CSRF_TRUSTED_ORIGINS = ['shikshakikiran.up.railway.app', 'https://shikshakikiran.up.railway.app', 'https://*.railway.app']
+CSRF_TRUSTED_ORIGINS = ['https://shikshakikiran.up.railway.app', 'https://*.railway.app', 'http://localhost', 'http://127.0.0.1']
 
 
 # Application definition
@@ -89,8 +89,7 @@ WSGI_APPLICATION = 'shikshakikiran.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/2.1/ref/settings/#databases
 
-DATABASE_URL='postgresql://postgres:DDF5G514B54dD241c-efa*AEA2d3-cF5@viaduct.proxy.rlwy.net:17786/railway'
-
+DATABASE_URL='postgresql://postgres:35bGcbGf*g53E56fF*5bE244G41EG-c*@monorail.proxy.rlwy.net:15234/railway'
 
 DATABASES = {
     # 'default': {
