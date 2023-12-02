@@ -14,3 +14,5 @@ django-bootstrap4
 whitenoise
 gunicorn
 django-makemessages-xgettext
+dj-database-url 
+psycopg2
