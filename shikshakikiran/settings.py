@@ -89,7 +89,7 @@ WSGI_APPLICATION = 'shikshakikiran.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/2.1/ref/settings/#databases
 
-DATABASE_URL='postgresql://postgres:35bGcbGf*g53E56fF*5bE244G41EG-c*@monorail.proxy.rlwy.net:15234/railway'
+DATABASE_URL='postgresql://postgres:GbdF6eF3e1e56db5CF5F*6EdBf4Ac33D@roundhouse.proxy.rlwy.net:24946/railway'
 
 DATABASES = {
     # 'default': {
